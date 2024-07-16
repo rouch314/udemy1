@@ -1,15 +1,12 @@
-// alert('Hello!');
+"use strict";
 
-// const result = confirm("Are you here?");
-// console.log(result);
+// console.log(4 + + '15');
 
-// const answer = prompt("Вам есть 18?", "");
-// console.log(answer);
+let incr = 10,
+    decr = 10;
 
-const answers = [];
+// incr++;
+// decr--;
 
-answers[0] = prompt("Как Вас зовут?", "");
-answers[1] = prompt("Сколько Вам лет?", "");
-answers[2] = prompt("Где Вы работаете?", "");
-
-document.write(answers);
+console.log(++incr);
+console.log(--decr)
